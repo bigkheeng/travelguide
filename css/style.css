@@ -7,18 +7,21 @@
     display: flex;
     justify-content: space-between;
     margin: 0;
-    padding-left: 20px;
+    padding-left: 40px;
     padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     position: sticky;
     top: 0;
     z-index: 20000;
     background-color: #fff;
-    width: 100%;
+    width: 98%;
 
 }
 body{
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 .logo{
     display: flex;
@@ -38,6 +41,8 @@ body{
     font-size: 50px;
     font-weight: lighter;
     font-family: 'Tangerine';
+    padding-top: 0;
+    padding-left: 5px
 };
 .travel{
     color: orange;
@@ -64,7 +69,7 @@ body{
 }
 .land{
     position: relative;
-    width: 100%;
+    width: 97%;
     height: 500px;
     background-image: url(../images/bLaIh0.jpg);
     background-repeat: no-repeat;
@@ -204,11 +209,13 @@ h6{
     color: #fff;
     font-weight: bold;
     font-family: sans-serif;
+    padding: 25px;
 }
 .tail{
     width: 100%;
     height: 40px;
     text-align: center;
     font-size: 18px;
-    padding-top: 10px;
+    padding: 10px;
+
 }

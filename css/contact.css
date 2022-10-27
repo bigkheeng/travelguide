@@ -12,16 +12,29 @@
     top: 0;
     z-index: 20000;
     background-color: rgb(255, 255, 255);
-    width: 100%;
+    width: 96%;
     height: 50px;
     padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 30px;
 
+}
+.w{
+    text-decoration: none;
+    color: rgba(67, 64, 64, 0.347);
+    margin-left: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.u{
+    margin-top: 20px;
 }
 body{
     padding: 0;
     margin: 0;
     background:linear-gradient(to bottom right, orange, lightgreen);
     background-repeat: no-repeat;
+    overflow-x: hidden;
 }
 .logo{
     display: flex;
@@ -40,6 +53,7 @@ body{
     font-size: 50px;
     font-weight: lighter;
     font-family: 'Tangerine';
+    padding-left: 20px;
 }
 .travel{
     color: orange;
